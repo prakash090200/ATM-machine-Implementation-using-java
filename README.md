@@ -13,7 +13,7 @@ asynchronized means - parallelly handling*.
  :black_nib: Object Oriented Programming in java.<br/>
  :black_nib: Threads in java <br/>
  :black_nib: Data Structure <br/>
-         <&nbsp>   :fountain_pen: Double Linked list <br/>
+   :fountain_pen: Double Linked list <br/>
  :black_nib: Exception handling <br/>
  :black_nib: Interface in java <br/>
  

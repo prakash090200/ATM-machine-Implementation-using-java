@@ -13,7 +13,7 @@ asynchronized means - parallelly handling*.
  :black_nib: Object Oriented Programming in java.<br/>
  :black_nib: Threads in java <br/>
  :black_nib: Data Structure <br/>
-        :fountain_pen: Double Linked list <br/>
+    &nbsb    :fountain_pen: Double Linked list <br/>
  :black_nib: Exception handling <br/>
  :black_nib: Interface in java <br/>
  
@@ -33,14 +33,15 @@ This is asynchronized multi-thread implementation where 3 user inputs are given 
  
  Here we made it synchronized now 1st thread was processed completely then next thread is processed , this way data is secured.
  
----
 # Working 
-	:pen: First create the thread object for thread class <br/>
-	:pen: join the thread with the source code either by - <br/>
-     	       :pencil2: Implementing the interface Runnable( import java.lang.Runnable). <br/>
-     	       :pencil2: Extending the Thread Class Itself(import java.lang.thread). <br/>
-	:pen: Start each thread corresponding to each customer. <br/>
-	:pen: For synchronized multi- thread use- <br/>
+
+:pen: First create the thread object for thread class <br/>
+:pen: join the thread with the source code either by - <br/>
+      &nbsb	:pencil2: Implementing the interface Runnable( import java.lang.Runnable). <br/>
+      &nbsb :pencil2: Extending the Thread Class Itself(import java.lang.thread). <br/>
+:pen: Start each thread corresponding to each customer. <br/>
+:pen: For synchronized multi- thread use- <br/>
+
 ---
      Synchronized(resource object name){ 
              public void run(){ 

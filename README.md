@@ -1,4 +1,4 @@
-# ATM-machine-Implementation-using-java
+# ATM-machine-Implementation-using-java :octocat: 
 
  Its about how the ATM machine works when it need to manage multiple withdraw task at the same time . If the user have an account in the database then they can put  a request of withdraw amount else they need to create their account in that database First.
  Suppose 1000-2000 people all over India want to withdraw some amount from their  account which has huge amount but not enough for all those 1000-2000 people currently accessing the server . So, Here comes the concept of Thread (single  and multiple) in java.
@@ -52,8 +52,9 @@ This is asynchronized multi-thread implementation where 3 user inputs are given 
 
 https://www.linkedin.com/in/prakash-kumar-384409177/
 
-6379215481
+:telephone_receiver: 6379215481
 
-<a href="https://imgflip.com/gif/3l3m92"><img src="https://i.imgflip.com/3l3m92.gif" title="made at imgflip.com"/></a>
-Hover on picture :v:
+<center><a href="https://imgflip.com/gif/3l3m92"><img src="https://i.imgflip.com/3l3m92.gif" title="made at imgflip.com"/></a></center>
+
+Hover on picture :v: 
 

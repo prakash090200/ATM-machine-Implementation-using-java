@@ -18,4 +18,7 @@ asynchronized means - parallelly handling*.
  * Interface in java
  ---
  ## Screenshots
- 
+ <img width="939" alt="multi-thread access" src="https://user-images.githubusercontent.com/59432256/80273525-64d25380-86f0-11ea-8fff-a1482d00eadb.PNG">
+
+
+

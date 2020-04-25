@@ -13,7 +13,7 @@ asynchronized means - parallelly handling*.
  :black_nib: Object Oriented Programming in java.<br/>
  :black_nib: Threads in java <br/>
  :black_nib: Data Structure <br/>
-    &nbsb    :fountain_pen: Double Linked list <br/>
+           :fountain_pen: Double Linked list <br/>
  :black_nib: Exception handling <br/>
  :black_nib: Interface in java <br/>
  
@@ -37,8 +37,8 @@ This is asynchronized multi-thread implementation where 3 user inputs are given 
 
 :pen: First create the thread object for thread class <br/>
 :pen: join the thread with the source code either by - <br/>
-      &nbsb	:pencil2: Implementing the interface Runnable( import java.lang.Runnable). <br/>
-      &nbsb :pencil2: Extending the Thread Class Itself(import java.lang.thread). <br/>
+          	:pencil2: Implementing the interface Runnable( import java.lang.Runnable). <br/>
+           :pencil2: Extending the Thread Class Itself(import java.lang.thread). <br/>
 :pen: Start each thread corresponding to each customer. <br/>
 :pen: For synchronized multi- thread use- <br/>
 
@@ -52,11 +52,11 @@ This is asynchronized multi-thread implementation where 3 user inputs are given 
 * All database is maintained and structures using Double linked list which is the child class of list ( inturn is a child class of collection interaface)
 # Contact
 
-https://www.linkedin.com/in/prakash-kumar-384409177/
+:computer: https://www.linkedin.com/in/prakash-kumar-384409177/
 
 :telephone_receiver: 6379215481
 
 <center><a href="https://imgflip.com/gif/3l3m92"><img src="https://i.imgflip.com/3l3m92.gif" title="made at imgflip.com"/></a></center>
 
-Hover on picture :trollface: :v: 
+Hover on picture  :v: 
 

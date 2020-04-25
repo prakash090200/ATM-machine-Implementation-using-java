@@ -1,4 +1,4 @@
-# ATM-machine-Implementation-using-java :octocat: 
+# ATM-machine-Implementation-using-java #:octocat: 
 
  Its about how the ATM machine works when it need to manage multiple withdraw task at the same time . If the user have an account in the database then they can put  a request of withdraw amount else they need to create their account in that database First.
  Suppose 1000-2000 people all over India want to withdraw some amount from their  account which has huge amount but not enough for all those 1000-2000 people currently accessing the server . So, Here comes the concept of Thread (single  and multiple) in java.
@@ -13,7 +13,7 @@ asynchronized means - parallelly handling*.
  :black_nib: Object Oriented Programming in java.<br/>
  :black_nib: Threads in java <br/>
  :black_nib: Data Structure <br/>
-           :fountain_pen: Double Linked list <br/>
+       <pre>   :fountain_pen: Double Linked list <br/>
  :black_nib: Exception handling <br/>
  :black_nib: Interface in java <br/>
  

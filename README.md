@@ -12,10 +12,10 @@ asynchronized means - parallelly handling
 
  * Object Oriented Programming in java.
  * Threads in java
- - Data Structure
+ * Data Structure
      * Double Linked list
- + Exception handling
- - Interface in java
+ * Exception handling
+ * Interface in java
  ---
  
   

@@ -20,6 +20,9 @@ asynchronized means - parallelly handling*.
  ## Screenshots
  <img width="939" alt="multi-thread access" src="https://user-images.githubusercontent.com/59432256/80273525-64d25380-86f0-11ea-8fff-a1482d00eadb.PNG">
  
+ This a non- synchronized multi-thread implementation where 3 user inputs are given if the user login credentials matches with the database they were allowed to forward transaction request to the server else invalid user.
+ for each user a thread is created and attached to his code . 
+ 
  
  
  <img width="943" alt="synchronized multi-thread" src="https://user-images.githubusercontent.com/59432256/80273558-bbd82880-86f0-11ea-94fe-73e9cb49f848.PNG">

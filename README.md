@@ -19,6 +19,11 @@ asynchronized means - parallelly handling*.
  ---
  ## Screenshots
  <img width="939" alt="multi-thread access" src="https://user-images.githubusercontent.com/59432256/80273525-64d25380-86f0-11ea-8fff-a1482d00eadb.PNG">
+ 
+ 
+ 
+ <img width="943" alt="synchronized multi-thread" src="https://user-images.githubusercontent.com/59432256/80273558-bbd82880-86f0-11ea-94fe-73e9cb49f848.PNG">
+
 
 
 

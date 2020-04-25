@@ -1,4 +1,4 @@
-# ATM-machine-Implementation-using-java :octocat: 2em #3642
+# ATM-machine-Implementation-using-java :octocat: 
 
  Its about how the ATM machine works when it need to manage multiple withdraw task at the same time . If the user have an account in the database then they can put  a request of withdraw amount else they need to create their account in that database First.
  Suppose 1000-2000 people all over India want to withdraw some amount from their  account which has huge amount but not enough for all those 1000-2000 people currently accessing the server . So, Here comes the concept of Thread (single  and multiple) in java.
@@ -10,16 +10,17 @@ asynchronized means - parallelly handling*.
 ---
 ## Concept Used:
 
- * Object Oriented Programming in java.
- * Threads in java
- * Data Structure
-     * Double Linked list
- * Exception handling
- * Interface in java
- ---
- ## Screenshots
+ :black_nib: Object Oriented Programming in java.
+ :black_nib: Threads in java
+ :black_nib: Data Structure
+     :fountain_pen: Double Linked list
+ :black_nib: Exception handling
+ :black_nib: Interface in java
  
- ### asynchronized multi-thread
+ ---
+ ## Screenshots :movie_camera: :film_strip:
+ 
+ ### asynchronized multi-thread :camera:
 <img width="944" alt="asynchronized multi-thread" src="https://user-images.githubusercontent.com/59432256/80273990-cbf20700-86f4-11ea-9955-4e31b8085810.PNG">
 
 
@@ -27,19 +28,19 @@ This is asynchronized multi-thread implementation where 3 user inputs are given 
  For each user a thread is created and attached to the code , now when they try to withdraw amount from atm ( atm has only Rs 5000 left)
  both request will be processed together at the same time in a circular queue both the threads making use of same resource as a result the data got corrupted.
  
- ### synchronized multi-thread
+ ### synchronized multi-thread :camera:
  <img width="943" alt="synchronized multi-thread" src="https://user-images.githubusercontent.com/59432256/80273558-bbd82880-86f0-11ea-94fe-73e9cb49f848.PNG">
  
  Here we made it synchronized now 1st thread was processed completely then next thread is processed , this way data is secured.
  
 ---
 # Working 
-* First create the thread object for thread class
-* join the thread with the source code either by -
-     * Implementing the interface Runnable( import java.lang.Runnable).
-     * Extending the Thread Class Itself(import java.lang.thread).
-* Start each thread corresponding to each customer.
-* For synchronized multi- thread use-
+	:pen: First create the thread object for thread class
+	:pen: join the thread with the source code either by -
+     	:pencil2: Implementing the interface Runnable( import java.lang.Runnable).
+     	:pencil2: Extending the Thread Class Itself(import java.lang.thread).
+	:pen: Start each thread corresponding to each customer.
+	:pen: For synchronized multi- thread use-
 ---
      Synchronized(resource object name){ 
              public void run(){ 
@@ -56,5 +57,5 @@ https://www.linkedin.com/in/prakash-kumar-384409177/
 
 <center><a href="https://imgflip.com/gif/3l3m92"><img src="https://i.imgflip.com/3l3m92.gif" title="made at imgflip.com"/></a></center>
 
-Hover on picture :v: 
+Hover on picture :trollface: :v: 
 

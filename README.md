@@ -18,8 +18,8 @@ asynchronized means - parallelly handling*.
  * Interface in java
  ---
  ## Screenshots
- <img width="939" alt="multi-thread access" src="https://user-images.githubusercontent.com/59432256/80273525-64d25380-86f0-11ea-8fff-a1482d00eadb.PNG">
- 
+ ![multi-thread](https://user-images.githubusercontent.com/59432256/80273749-93e9c480-86f2-11ea-9b61-a1352b30f4be.png)
+
  This a non- synchronized multi-thread implementation where 3 user inputs are given if the user login credentials matches with the database they were allowed to forward transaction request to the server else invalid user.
  for each user a thread is created and attached to his code . 
  

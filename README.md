@@ -11,11 +11,11 @@ asynchronized means - parallelly handling*.
 ## Concept Used:
 
  :black_nib: Object Oriented Programming in java.<br/>
- :black_nib: Threads in java
- :black_nib: Data Structure
-     :fountain_pen: Double Linked list
- :black_nib: Exception handling
- :black_nib: Interface in java
+ :black_nib: Threads in java <br/>
+ :black_nib: Data Structure <br/>
+        :fountain_pen: Double Linked list <br/>
+ :black_nib: Exception handling <br/>
+ :black_nib: Interface in java <br/>
  
  ---
  ## Screenshots :movie_camera: :film_strip:
@@ -35,12 +35,12 @@ This is asynchronized multi-thread implementation where 3 user inputs are given 
  
 ---
 # Working 
-	:pen: First create the thread object for thread class
-	:pen: join the thread with the source code either by -
-     	:pencil2: Implementing the interface Runnable( import java.lang.Runnable).
-     	:pencil2: Extending the Thread Class Itself(import java.lang.thread).
-	:pen: Start each thread corresponding to each customer.
-	:pen: For synchronized multi- thread use-
+	:pen: First create the thread object for thread class <br/>
+	:pen: join the thread with the source code either by - <br/>
+     	       :pencil2: Implementing the interface Runnable( import java.lang.Runnable). <br/>
+     	       :pencil2: Extending the Thread Class Itself(import java.lang.thread). <br/>
+	:pen: Start each thread corresponding to each customer. <br/>
+	:pen: For synchronized multi- thread use- <br/>
 ---
      Synchronized(resource object name){ 
              public void run(){ 

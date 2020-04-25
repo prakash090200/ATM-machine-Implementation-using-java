@@ -21,7 +21,8 @@ asynchronized means - parallelly handling*.
  ![multi-thread](https://user-images.githubusercontent.com/59432256/80273749-93e9c480-86f2-11ea-9b61-a1352b30f4be.png)
 
  This a non- synchronized multi-thread implementation where 3 user inputs are given if the user login credentials matches with the database they were allowed to forward transaction request to the server else invalid user.
- for each user a thread is created and attached to his code . 
+ For each user a thread is created and attached to the code , now when they try to withdraw amount from atm ( atm has only Rs 5000 left)
+ both request will be processed together at the same time in a circular queue .As you can see the data is corrupted 
  
  
  

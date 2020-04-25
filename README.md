@@ -13,7 +13,7 @@ asynchronized means - parallelly handling*.
  * Object Oriented Programming in java.<br/>
  * Threads in java <br/>
  * Data Structure <br/>
-       * Double Linked list <br/>
+      * Double Linked list <br/>
  * Exception handling <br/>
  * Interface in java <br/>
 
@@ -37,8 +37,8 @@ This is asynchronized multi-thread implementation where 3 user inputs are given 
 
 * First create the thread object for thread class <br/>
 * join the thread with the source code either by - <br/>
-          	* Implementing the interface Runnable( import java.lang.Runnable). <br/>
-           * Extending the Thread Class Itself(import java.lang.thread). <br/>
+      * Implementing the interface Runnable( import java.lang.Runnable). <br/>
+      * Extending the Thread Class Itself(import java.lang.thread). <br/>
 * Start each thread corresponding to each customer. <br/>
 * For synchronized multi- thread use- <br/>
 

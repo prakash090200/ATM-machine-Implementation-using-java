@@ -1,4 +1,4 @@
-# ATM-machine-Implementation-using-java :octocat: 
+# ATM-machine-Implementation-using-java :octocat: 2em #3642
 
  Its about how the ATM machine works when it need to manage multiple withdraw task at the same time . If the user have an account in the database then they can put  a request of withdraw amount else they need to create their account in that database First.
  Suppose 1000-2000 people all over India want to withdraw some amount from their  account which has huge amount but not enough for all those 1000-2000 people currently accessing the server . So, Here comes the concept of Thread (single  and multiple) in java.

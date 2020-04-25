@@ -18,15 +18,37 @@ asynchronized means - parallelly handling*.
  * Interface in java
  ---
  ## Screenshots
- ![multi-thread](https://user-images.githubusercontent.com/59432256/80273749-93e9c480-86f2-11ea-9b61-a1352b30f4be.png)
+<img width="944" alt="asynchronized multi-thread" src="https://user-images.githubusercontent.com/59432256/80273990-cbf20700-86f4-11ea-9955-4e31b8085810.PNG">
 
- This a non- synchronized multi-thread implementation where 3 user inputs are given if the user login credentials matches with the database they were allowed to forward transaction request to the server else invalid user.
+This a non- synchronized multi-thread implementation where 3 user inputs are given if the user login credentials matches with the database they were allowed to forward transaction request to the server else invalid user.
  For each user a thread is created and attached to the code , now when they try to withdraw amount from atm ( atm has only Rs 5000 left)
- both request will be processed together at the same time in a circular queue .As you can see the data is corrupted 
- 
+ both request will be processed together at the same time in a circular queue both the threads making use of same resource as a result the data got corrupted.
  
  
  <img width="943" alt="synchronized multi-thread" src="https://user-images.githubusercontent.com/59432256/80273558-bbd82880-86f0-11ea-94fe-73e9cb49f848.PNG">
+ 
+ Here we made it synchronized now 1st thread was processed completely then next thread is processed , this way data is secured.
+---
+# Working 
+* First create the thread object for thread class
+* join the thread with the source code either by -
+     * Implementing the interface Runnable( import java.lang.Runnable).
+     * Extending the Thread Class Itself(import java.lang.thread).
+* Start each thread corresponding to each customer.
+* For synchronized multi- thread use-
+---
+     *Synchronized(resource object name){ 
+             public void run(){ 
+             // code 
+             } 
+          }*
+---       
+* All database is maintained and structures using Double linked list which is the child class of list ( inturn is a child class of collection interaface)
+# Contact
+
+https://www.linkedin.com/in/prakash-kumar-384409177/
+
+6379215481
 
 
 
